@@ -3,6 +3,7 @@ __pycache__
 *.pdf
 .env
 .flaskenv
-data.db
 demo.py
 test.py
+*.db  
+ 
