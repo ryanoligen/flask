@@ -1,0 +1,44 @@
+<!-- <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ user.name }}'s 2021 reading list</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
+</head>
+
+<body>
+    <h2>
+        <img alt="a horse" class="horse" src="{{ url_for('static', filename='images/horse.png') }}">
+        {{ user.name }}'s 2021 reading list
+    </h2>
+    <ul class="book-list">
+        <li>
+            Page Not Found - 404
+            <span class="float-right">
+                <a href="{{ url_for('reading') }}">Go Back</a>
+            </span>
+        </li>
+    </ul>
+    
+    <footer>
+        <small>&copy; 2021 <a href="https://ryanoligen.com">RyanOligen</a></small>
+    </footer>
+</body>
+
+</html> -->
+
+
+{% extends 'base.html' %}
+
+{% block content %}
+<ul class="book-list">
+    <li>
+        Page Not Found - 404
+        <span class="float-right">
+            <a href="{{ url_for('reading') }}">Go Back</a>
+        </span>
+    </li>
+</ul>
+{% endblock %}
+

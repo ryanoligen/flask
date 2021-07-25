@@ -1,0 +1,11 @@
+*.pyc
+*~
+__pychache__
+.DS_Store
+.env
+*.pdf
+*.db
+test.py
+demo.py
+flask-tutorial-2.0.pdf
+env
