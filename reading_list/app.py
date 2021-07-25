@@ -5,7 +5,7 @@ import click
 from flask import Flask, cli, render_template
 
 from flask import request, url_for, redirect, flash, escape
-from flask.typing import ResponseReturnValue # escape 对动态url传入的参数转义，起安全作用
+# from flask.typing import ResponseReturnValue # escape 对动态url传入的参数转义，起安全作用
 
 from flask_sqlalchemy import SQLAlchemy
 
